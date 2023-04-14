@@ -24,6 +24,8 @@ Basic Function Chart:
 2. else if the word Panicked appears in the Log file restart the miner
 3. if none of the above wait 10 Seconds and check again
 
+![grafik](https://user-images.githubusercontent.com/130800379/232166215-b521cbbb-7402-44b7-ace9-3c88a15dbc0e.png)
+
 
 Just copy the Code or download the .sh file put it in your Minerstat OS home folder /home/minerstat/minerstat-os/ 
 start a Screen so the script has its own session: screen -S watchdog 
