@@ -20,9 +20,9 @@ ozmlogger is just a location to log the output of the script, it should also log
 
 Basic Function Chart: 
 
-If time to last "share accepted" is more than $200 Seconds then restart miner
-else if the word Panicked appears in the Log file restart the miner
-if none of the above wait 10 Seconds and check again
+1. If time to last "share accepted" is more than $200 Seconds then restart miner
+2. else if the word Panicked appears in the Log file restart the miner
+3. if none of the above wait 10 Seconds and check again
 
 
 Just copy the Code or download the .sh file put it in your Minerstat OS home folder /home/minerstat/minerstat-os/ 
