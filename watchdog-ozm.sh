@@ -9,7 +9,7 @@ alias mstart='sudo su minerstat -c "screen -X -S minerstat-console quit" > /dev/
 log_file=/home/minerstat/minerstat-os/clients/onezero-custom/miner.log                                                                                                                                            
 ozmlogger=/home/minerstat/minerstat-os/ozm-logger.txt
 # Set time threshold in seconds (4 minutes = 240 seconds recommended depending on difficulty)
-time_threshold=200
+time_threshold=240
 #time=$(date +%F_%H:%M:%S)
 #delta=$(grep -i 'Share' "$log_file" |tail -1)
 
@@ -44,5 +44,5 @@ while true; do
 					  echo "Miner is OK"
 					
 		  # Wait for 60 seconds before checking again
-					      sleep 10
+					      sleep 60
 				      done
