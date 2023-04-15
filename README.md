@@ -74,9 +74,15 @@ ready to start the Script
 check if output looks like this:
 ![grafik](https://user-images.githubusercontent.com/130800379/232163682-b6469752-f57b-4f97-9796-172745b6a429.png)
 
+
 If it does exit the screen by pressing simultaneously CTRL+A+D
 
 you are on the main Session again 
+
+the screens of your environment should look something like this 
+
+![grafik](https://user-images.githubusercontent.com/130800379/232223333-05473c32-cc92-4ded-b18c-bee231796abf.png)
+
 
 Basic Function Chart: 
 
